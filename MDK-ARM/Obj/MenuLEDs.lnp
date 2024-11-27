@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\obj\startup_lpc17xx.o"
+".\obj\system_lpc17xx.o"
+".\obj\core_cm3.o"
+".\obj\main.o"
+".\obj\http_cgi.o"
+".\obj\pantalla_lcd.o"
+".\obj\uartfifo.o"
+".\obj\i2c_lpc17xx.o"
+".\obj\nunchuk.o"
+".\obj\glcd.o"
+".\obj\asciilib.o"
+".\obj\touchpanel.o"
+".\obj\lpc17xx_gpio.o"
+".\obj\lpc17xx_pinsel.o"
+".\obj\lpc17xx_ssp.o"
+".\obj\lpc17xx_clkpwr.o"
+".\obj\lpc17xx_libcfg_default.o"
+".\obj\leds.o"
+".\obj\serial.o"
+".\obj\net_config.o"
+".\obj\emac_lpc17xx_lan8720.o"
+"..\Libraries\TCP_CM3\TCP_CM3.lib"
+".\obj\web_1.o"
+--library_type=microlib --strict --scatter ".\Obj\MenuLEDs.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\MenuLEDs.map" -o .\Obj\MenuLEDs.axf

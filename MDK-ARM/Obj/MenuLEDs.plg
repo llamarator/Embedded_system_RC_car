@@ -1,0 +1,526 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\SEDA\MenuLEDs_HTTP_v1\MDK-ARM\MenuLEDs.uvproj
+Project File Date:  10/29/2017
+
+<h2>Output:</h2>
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+compiling main.c...
+..\USER\main.c(164): warning:  #177-D: function "init_stdout" was declared but never referenced
+compiling web.c...
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\SEDA\\MenuLEDs_HTTP_v1\\MDK-ARM\\Obj\\MenuLEDs.axf" 
+Set JLink Project File to "C:\SEDA\MenuLEDs_HTTP_v1\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 268002162 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.325V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Rebuild target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+compiling main.c...
+..\USER\main.c(164): warning:  #177-D: function "init_stdout" was declared but never referenced
+compiling menu.c...
+compiling HTTP_CGI.c...
+..\USER\HTTP_CGI.c(183): warning:  #177-D: variable "tsoc" was declared but never referenced
+..\USER\HTTP_CGI.c(185): warning:  #177-D: variable "id" was declared but never referenced
+..\USER\HTTP_CGI.c(185): warning:  #177-D: variable "lang" was declared but never referenced
+..\USER\HTTP_CGI.c(186): warning:  #177-D: variable "adv" was declared but never referenced
+..\USER\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+..\USER\HTTP_CGI.c(61): warning:  #177-D: variable "state" was declared but never referenced
+compiling GLCD.c...
+compiling AsciiLib.c...
+compiling TouchPanel.c...
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_ssp.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_libcfg_default.c...
+compiling leds.c...
+compiling Serial.c...
+compiling Net_Config.c...
+compiling EMAC_LPC17xx_LAN8720.c...
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(393): warning:  #177-D: function "output_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(412): warning:  #177-D: function "turnaround_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(424): warning:  #177-D: function "input_MDIO" was declared but never referenced
+compiling Net_Debug.c...
+compiling SPI_LPC17xx.c...
+compiling web.c...
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 10 Warning(s).
+Load "C:\\SEDA\\MenuLEDs_HTTP_v1\\MDK-ARM\\Obj\\MenuLEDs.axf" 
+Set JLink Project File to "C:\SEDA\MenuLEDs_HTTP_v1\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 268002162 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.325V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 0 Warning(s).
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+compiling web.c...
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+compiling main.c...
+..\USER\main.c(164): warning:  #177-D: function "init_stdout" was declared but never referenced
+compiling menu.c...
+compiling HTTP_CGI.c...
+..\USER\HTTP_CGI.c(183): warning:  #177-D: variable "tsoc" was declared but never referenced
+..\USER\HTTP_CGI.c(185): warning:  #177-D: variable "id" was declared but never referenced
+..\USER\HTTP_CGI.c(185): warning:  #177-D: variable "lang" was declared but never referenced
+..\USER\HTTP_CGI.c(186): warning:  #177-D: variable "adv" was declared but never referenced
+..\USER\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+..\USER\HTTP_CGI.c(61): warning:  #177-D: variable "state" was declared but never referenced
+compiling GLCD.c...
+compiling AsciiLib.c...
+compiling TouchPanel.c...
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_ssp.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_libcfg_default.c...
+compiling leds.c...
+compiling Serial.c...
+compiling Net_Config.c...
+compiling EMAC_LPC17xx_LAN8720.c...
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(393): warning:  #177-D: function "output_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(412): warning:  #177-D: function "turnaround_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(424): warning:  #177-D: function "input_MDIO" was declared but never referenced
+compiling Net_Debug.c...
+compiling web.c...
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 10 Warning(s).
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+compiling main.c...
+..\USER\main.c(164): warning:  #177-D: function "init_stdout" was declared but never referenced
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\SEDA\\MenuLEDs_HTTP_v1\\MDK-ARM\\Obj\\MenuLEDs.axf" 
+Set JLink Project File to "C:\SEDA\MenuLEDs_HTTP_v1\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 268002162 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.325V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+compiling main.c...
+..\USER\main.c(103): warning:  #177-D: function "init_stdout" was declared but never referenced
+compiling web.c...
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 1 Warning(s).
+Load "C:\\SEDA\\MenuLEDs_HTTP_v1\\MDK-ARM\\Obj\\MenuLEDs.axf" 
+Set JLink Project File to "C:\SEDA\MenuLEDs_HTTP_v1\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 268002162 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.325V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+compiling main.c...
+..\USER\main.c(35): warning:  #177-D: function "init_stdout" was declared but never referenced
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 1 Warning(s).
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+compiling main.c...
+..\USER\main.c(35): warning:  #177-D: function "init_stdout" was declared but never referenced
+compiling web.c...
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+compiling main.c...
+..\USER\main.c(35): warning:  #177-D: function "init_stdout" was declared but never referenced
+compiling menu.c...
+compiling HTTP_CGI.c...
+..\USER\HTTP_CGI.c(183): warning:  #177-D: variable "tsoc" was declared but never referenced
+..\USER\HTTP_CGI.c(185): warning:  #177-D: variable "id" was declared but never referenced
+..\USER\HTTP_CGI.c(185): warning:  #177-D: variable "lang" was declared but never referenced
+..\USER\HTTP_CGI.c(186): warning:  #177-D: variable "adv" was declared but never referenced
+..\USER\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+..\USER\HTTP_CGI.c(61): warning:  #177-D: variable "state" was declared but never referenced
+compiling GLCD.c...
+compiling AsciiLib.c...
+compiling TouchPanel.c...
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_ssp.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_libcfg_default.c...
+compiling leds.c...
+compiling Serial.c...
+compiling Net_Config.c...
+compiling EMAC_LPC17xx_LAN8720.c...
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(393): warning:  #177-D: function "output_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(412): warning:  #177-D: function "turnaround_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(424): warning:  #177-D: function "input_MDIO" was declared but never referenced
+compiling Net_Debug.c...
+compiling web.c...
+linking...
+Program Size: Code=110216 RO-data=4672 RW-data=344 ZI-data=24872  
+".\Obj\MenuLEDs.axf" - 0 Errors, 10 Warning(s).
+Load "C:\\SEDA\\MenuLEDs_HTTP_v1\\MDK-ARM\\Obj\\MenuLEDs.axf" 
+Set JLink Project File to "C:\SEDA\MenuLEDs_HTTP_v1\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 268002162 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.325V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+compiling Serial.c...
+linking...
+Program Size: Code=97544 RO-data=4344 RW-data=296 ZI-data=24864  
+".\Obj\MenuLEDs.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\SEDA\\MenuLEDs_HTTP_v1\\MDK-ARM\\Obj\\MenuLEDs.axf" 
+Set JLink Project File to "C:\SEDA\MenuLEDs_HTTP_v1\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 268002162 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.325V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+compiling main.c...
+..\USER\main.c(35): warning:  #177-D: function "init_stdout" was declared but never referenced
+compiling web.c...
+linking...
+Program Size: Code=97552 RO-data=4344 RW-data=296 ZI-data=24864  
+".\Obj\MenuLEDs.axf" - 0 Errors, 1 Warning(s).
+Rebuild target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+compiling main.c...
+compiling menu.c...
+compiling HTTP_CGI.c...
+..\USER\HTTP_CGI.c(183): warning:  #177-D: variable "tsoc" was declared but never referenced
+..\USER\HTTP_CGI.c(185): warning:  #177-D: variable "id" was declared but never referenced
+..\USER\HTTP_CGI.c(185): warning:  #177-D: variable "lang" was declared but never referenced
+..\USER\HTTP_CGI.c(186): warning:  #177-D: variable "adv" was declared but never referenced
+..\USER\HTTP_CGI.c(60): warning:  #177-D: variable "P2" was declared but never referenced
+..\USER\HTTP_CGI.c(61): warning:  #177-D: variable "state" was declared but never referenced
+compiling GLCD.c...
+compiling AsciiLib.c...
+compiling TouchPanel.c...
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_ssp.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_libcfg_default.c...
+compiling leds.c...
+compiling Serial.c...
+compiling Net_Config.c...
+compiling EMAC_LPC17xx_LAN8720.c...
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(393): warning:  #177-D: function "output_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(412): warning:  #177-D: function "turnaround_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(424): warning:  #177-D: function "input_MDIO" was declared but never referenced
+compiling web.c...
+linking...
+Program Size: Code=97552 RO-data=4344 RW-data=296 ZI-data=24864  
+".\Obj\MenuLEDs.axf" - 0 Errors, 9 Warning(s).
+Rebuild target 'MiniDK2'
+custom translating Web.inp...
+Custom: C:\Keil472a\ARM\bin\fcarm @..\Web\Web.inp
+FCARM FILE CONVERTER V2.41
+Completed 1 File(s), Ratio 61%
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+compiling main.c...
+compiling menu.c...
+compiling HTTP_CGI.c...
+..\USER\HTTP_CGI.c(60): warning:  #177-D: variable "state" was declared but never referenced
+compiling GLCD.c...
+compiling AsciiLib.c...
+compiling TouchPanel.c...
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_ssp.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_libcfg_default.c...
+compiling leds.c...
+compiling Serial.c...
+compiling Net_Config.c...
+compiling EMAC_LPC17xx_LAN8720.c...
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(393): warning:  #177-D: function "output_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(412): warning:  #177-D: function "turnaround_MDIO" was declared but never referenced
+..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c(424): warning:  #177-D: function "input_MDIO" was declared but never referenced
+compiling web.c...
+linking...
+Program Size: Code=97552 RO-data=4344 RW-data=296 ZI-data=24864  
+".\Obj\MenuLEDs.axf" - 0 Errors, 4 Warning(s).
+Load "C:\\SEDA\\MenuLEDs_HTTP_v1\\MDK-ARM\\Obj\\MenuLEDs.axf" 
+Set JLink Project File to "C:\SEDA\MenuLEDs_HTTP_v1\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "LPC1768" selected (512 KB flash, 32 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 268002162 
+OEM : SEGGER-EDU 
+Feature(s) : FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x2BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r2p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: LPC1768
+VTarget = 3.325V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

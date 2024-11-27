@@ -1,0 +1,171 @@
+Dependencies for Project 'MenuLEDs', Target 'MiniDK2': (DO NOT MODIFY !)
+F (..\Libraries\CM3\DeviceSupport\startup_LPC17xx.s)(0x5996C81A)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx--list .\list\startup_lpc17xx.lst --xref -o .\obj\startup_lpc17xx.o --depend .\obj\startup_lpc17xx.d)
+F (..\Libraries\CM3\DeviceSupport\system_LPC17xx.c)(0x4E6F4B4E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\system_lpc17xx.o --omf_browse .\obj\system_lpc17xx.crf --depend .\obj\system_lpc17xx.d)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+F (..\Libraries\CM3\CoreSupport\core_cm3.c)(0x4DD1370A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\core_cm3.o --omf_browse .\obj\core_cm3.crf --depend .\obj\core_cm3.d)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (..\USER\main.c)(0x59F53C6A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil472a\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\RTL.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_Config.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\GLCD\GLCD.h)(0x58005928)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\SERIAL\serial.h)(0x51C80634)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TouchPanel\TouchPanel.h)(0x5995ED31)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_ssp.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_gpio.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_pinsel.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\USER\menu.h)(0x59970277)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LEDs\leds.h)(0x57F5D361)
+F (..\USER\menu.c)(0x59971E5D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\menu.o --omf_browse .\obj\menu.crf --depend .\obj\menu.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\GLCD\GLCD.h)(0x58005928)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.H)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TouchPanel\TouchPanel.h)(0x5995ED31)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_ssp.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_gpio.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_pinsel.h)(0x4E395048)
+I (C:\Keil472a\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LEDs\leds.h)(0x57F5D361)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_Config.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\RTL.h)(0x51C80F66)
+I (C:\Keil472a\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+F (..\USER\HTTP_CGI.c)(0x5996DED2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\http_cgi.o --omf_browse .\obj\http_cgi.crf --depend .\obj\http_cgi.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_Config.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\RTL.h)(0x51C80F66)
+I (C:\Keil472a\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil472a\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (..\Libraries\GLCD\GLCD.c)(0x5996F3E0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\glcd.o --omf_browse .\obj\glcd.crf --depend .\obj\glcd.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.H)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\GLCD\GLCD.h)(0x58005928)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\GLCD\AsciiLib.h)(0x4CEFD670)
+I (C:\Keil472a\ARM\ARMCC\include\string.h)(0x51C819B4)
+F (..\Libraries\GLCD\AsciiLib.c)(0x4CEFD636)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\asciilib.o --omf_browse .\obj\asciilib.crf --depend .\obj\asciilib.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\GLCD\AsciiLib.h)(0x4CEFD670)
+I (C:\Keil472a\ARM\ARMCC\include\string.h)(0x51C819B4)
+F (..\Libraries\TouchPanel\TouchPanel.c)(0x5996F3E0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\touchpanel.o --omf_browse .\obj\touchpanel.crf --depend .\obj\touchpanel.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\GLCD\GLCD.h)(0x58005928)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.H)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TouchPanel\TouchPanel.h)(0x5995ED31)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_ssp.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_gpio.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_pinsel.h)(0x4E395048)
+F (..\Libraries\LPC1700CMSIS_Firmware_Library\source\lpc17xx_gpio.c)(0x4E0093EE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\lpc17xx_gpio.o --omf_browse .\obj\lpc17xx_gpio.crf --depend .\obj\lpc17xx_gpio.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_gpio.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_libcfg_default.h)(0x4E395048)
+F (..\Libraries\LPC1700CMSIS_Firmware_Library\source\lpc17xx_pinsel.c)(0x4E0093EE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\lpc17xx_pinsel.o --omf_browse .\obj\lpc17xx_pinsel.crf --depend .\obj\lpc17xx_pinsel.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_pinsel.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\lpc17xx.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+F (..\Libraries\LPC1700CMSIS_Firmware_Library\source\lpc17xx_ssp.c)(0x4E0093EE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\lpc17xx_ssp.o --omf_browse .\obj\lpc17xx_ssp.crf --depend .\obj\lpc17xx_ssp.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_ssp.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_clkpwr.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_libcfg_default.h)(0x4E395048)
+F (..\Libraries\LPC1700CMSIS_Firmware_Library\source\lpc17xx_clkpwr.c)(0x4E0093EE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\lpc17xx_clkpwr.o --omf_browse .\obj\lpc17xx_clkpwr.crf --depend .\obj\lpc17xx_clkpwr.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_clkpwr.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\lpc17xx.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+F (..\Libraries\LPC1700CMSIS_Firmware_Library\source\lpc17xx_libcfg_default.c)(0x4E0093EE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\lpc17xx_libcfg_default.o --omf_browse .\obj\lpc17xx_libcfg_default.crf --depend .\obj\lpc17xx_libcfg_default.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_libcfg_default.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (..\Libraries\LEDs\leds.c)(0x57F5D301)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\leds.o --omf_browse .\obj\leds.crf --depend .\obj\leds.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LEDs\leds.h)(0x57F5D361)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_pinsel.h)(0x4E395048)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h)(0x4E0093F0)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_gpio.h)(0x4E395048)
+F (..\Libraries\SERIAL\Serial.c)(0x59F53D47)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\serial.o --omf_browse .\obj\serial.crf --depend .\obj\serial.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.H)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\SERIAL\Serial.h)(0x51C80634)
+I (C:\Keil472a\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+F (..\USER\Net_Config.c)(0x59F4FEA1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\net_config.o --omf_browse .\obj\net_config.crf --depend .\obj\net_config.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_Config.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\RTL.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_lib.c)(0x51C80F66)
+F (..\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.c)(0x599300FE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\emac_lpc17xx_lan8720.o --omf_browse .\obj\emac_lpc17xx_lan8720.crf --depend .\obj\emac_lpc17xx_lan8720.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_Config.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\RTL.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\EMAC_LPC17xx_LAN8720.h)(0x597F0F36)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\LPC17xx.h)(0x4E395E56)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cm3.h)(0x4E395E56)
+I (C:\Keil472a\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmInstr.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\CoreSupport\core_cmFunc.h)(0x4DD1370A)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\CM3\DeviceSupport\system_LPC17xx.h)(0x4DD1370A)
+F (..\Libraries\TCP_CM3\TCP_CM3.lib)(0x51C807C6)()
+F (..\USER\Net_Debug.c)(0x59F5181C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\net_debug.o --omf_browse .\obj\net_debug.crf --depend .\obj\net_debug.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_Config.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\RTL.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_lib.c)(0x51C80F66)
+I (C:\Keil472a\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil472a\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+F (..\Libraries\TCP_CM3\TCPD_CM3.lib)(0x51C807D2)()
+F (..\readme.txt)(0x59F53ECC)()
+F (..\Web\Web.inp)(0x59F4FD3B)()
+F (..\Web\web.c)(0x59F53C70)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CM3\CoreSupport -I..\Libraries\CM3\DeviceSupport -I..\Libraries\GLCD -I..\Libraries\TouchPanel -I..\USER -I..\Libraries\LPC1700CMSIS_Firmware_Library\include -I..\Libraries\LEDs -I..\Libraries\SD_FILE -I..\Libraries\SERIAL -I..\Libraries\SPI -I..\Libraries\TCP_CM3 -I..\Web-I C:\Keil472a\ARM\RV31\INC-I C:\Keil472a\ARM\CMSIS\Include-I C:\Keil472a\ARM\Inc\NXP\LPC17xx-D__DBG_ITM -o .\obj\web.o --omf_browse .\obj\web.crf --depend .\obj\web.d)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\Net_Config.h)(0x51C80F66)
+I (C:\SEDA\MenuLEDs_HTTP_v1\Libraries\TCP_CM3\RTL.h)(0x51C80F66)
+F (..\Web\index.cgi)(0x5996F0DC)()
