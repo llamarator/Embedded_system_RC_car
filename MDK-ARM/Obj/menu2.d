@@ -1,0 +1,15 @@
+.\obj\menu2.o: ..\USER\menu2.c
+.\obj\menu2.o: ..\Libraries\GLCD\GLCD.h
+.\obj\menu2.o: ..\Libraries\CM3\DeviceSupport\LPC17xx.H
+.\obj\menu2.o: ..\Libraries\CM3\CoreSupport\core_cm3.h
+.\obj\menu2.o: C:\Keil472a\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\menu2.o: ..\Libraries\CM3\CoreSupport\core_cmInstr.h
+.\obj\menu2.o: ..\Libraries\CM3\CoreSupport\core_cmFunc.h
+.\obj\menu2.o: ..\Libraries\CM3\DeviceSupport\system_LPC17xx.h
+.\obj\menu2.o: ..\Libraries\TouchPanel\TouchPanel.h
+.\obj\menu2.o: ..\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_ssp.h
+.\obj\menu2.o: ..\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc_types.h
+.\obj\menu2.o: ..\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_gpio.h
+.\obj\menu2.o: ..\Libraries\LPC1700CMSIS_Firmware_Library\include\lpc17xx_pinsel.h
+.\obj\menu2.o: C:\Keil472a\ARM\ARMCC\bin\..\include\string.h
+.\obj\menu2.o: ..\USER\leds.h
